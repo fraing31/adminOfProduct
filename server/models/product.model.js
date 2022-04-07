@@ -4,7 +4,7 @@ const ProductSchema = new mongoose.Schema({
         type : String
     },
     price : {
-        type : mongoose.Types.Decimal128    
+        type : Number    
     },
     description: {
         type : String,
